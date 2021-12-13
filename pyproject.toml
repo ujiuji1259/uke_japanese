@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "uke_ccrank"
+version = "0.1.0"
+description = ""
+authors = ["ujiuji1259 <suzzz428@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.10.0"
+transformers = "^4.13.0"
+mecab-python3 = "^1.0.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
